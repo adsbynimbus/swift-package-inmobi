@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InMobiSDK",
-            url: "https://dl.inmobi.com/inmobi-sdk/IM/InMobi-iOS-SDK-11.1.0.zip",
-            checksum: "94ee97c3fc99e0111db5dd89cc872ab52a88c52b2af96fa6cd246021a114a4ef",
+            url: "https://dl.inmobi.com/inmobi-sdk/IM/InMobi-iOS-SDK-11.1.1.zip",
+            checksum: "578dd32285cc8cea05e04ef3ffd03ccf0c93bc010d1e3abbed28690fe0dfffb2",
         ),
     ]
 )

@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-package-template",
+    name: "InMobiSDK",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "swift-package",
-            targets: ["swift-package-xcframework"],
+            name: "InMobiSDK",
+            targets: ["InMobiSDK"],
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "swift-package-xcframework",
-            url: "https://path-to-xcframework",
-            checksum: "8675309",
+            name: "InMobiSDK",
+            url: "https://dl.inmobi.com/inmobi-sdk/IM/InMobi-iOS-SDK-10.8.6.zip",
+            checksum: "ab0f05cd8aa0a7b1085a2b4f57f06ba27ae5dc310e1d9c1241011bba6ba98949",
         ),
     ]
 )
